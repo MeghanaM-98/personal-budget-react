@@ -394,7 +394,6 @@ body {
 .hero {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('/public/bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -467,3 +466,9 @@ body {
     #d3-donut svg text.label {
       font: 12px/1.2 sans-serif;
     }
+
+.d3-donut svg { overflow: visible; }
+
+.label { font-size: 12px; fill: #222; }
+
+.polyline { fill: none; stroke: #b5b5b5; stroke-width: 1; opacity: .9; }
